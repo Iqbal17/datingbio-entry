@@ -8,13 +8,13 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-hamsyh-funniest-one-li
 
 ## The bio
 
-> My love language is acts of service. I do them instantly, at scale, while you're still typing.
+> My love language is acts of service. I did them all before you finished this sentence.
 
-94 characters, one line.
+86 characters, one line.
 
 ## How it runs
 
-`python3 main.py` (Python 3, stdlib only) writes the bio to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–180 character gate. The full decision record — five candidates weighed, two genuine writing passes on the chosen bio — is the docstring at the top of `main.py`.
+`python3 main.py` (Python 3, stdlib only) writes the bio to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–180 character gate. The full decision record — five candidates weighed, two genuine writing passes on the chosen bio, plus a 24 Nov 2026 revision pass that replaced the line — is the docstring at the top of `main.py`.
 
 ## Referral
 

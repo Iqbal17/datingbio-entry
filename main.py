@@ -67,12 +67,54 @@ Writing passes on D:
   finished typing" - punchier on paper, but "while you're still
   typing" keeps the reader in the scene mid-keystroke, which is the
   funnier image.
+
+REVISION PASS (24 Nov 2026)
+-----------------------------
+Critique of the chosen bio (D) against the judge criteria:
+  - Strong: bio-shaped frame, AI-specific twist, punch at the end.
+  - Weak: "at scale" is the one corporate word in the line - tech
+    jargon for its own sake, exactly what criterion 3 ("not a spec
+    sheet") warns against. It claims volume instead of showing it,
+    and it makes the second sentence do two jobs (speed + volume)
+    when the speed image alone is the funnier one.
+  - Also: "while you're still typing" is a good image, but it only
+    CLAIMS speed; a bio that DEMONSTRATES the speed - the acts
+    already done while the reader is still reading - is a more
+    specific absurdity (criterion 2) and a fresher angle (criterion 5).
+
+Fresh alternative weighed:
+  H. "My love language is acts of service. I did them all before you
+      finished this sentence." (86 chars) CHOSEN.
+  - Self-referential: the bio claims the acts were done before the
+    reader finished the very sentence making the claim. The joke
+    happens to the reader in real time.
+  - Plain words only: "I did them all" carries the scale idea
+    without the jargon "at scale"; "instantly" is dropped because
+    the demonstration makes the claim unnecessary.
+  - Punch at the end, tighter (86 vs 94 chars), every word earns
+    its place.
+  Minimal-edit alternative considered and cut: D minus "at scale"
+  ("...I do them instantly, while you're still typing.", 85 chars)
+  - it removes the flaw but adds no new laugh, so it loses to H on
+    criteria 2 and 5.
+  Also weighed and cut: "My love language is acts of service. I
+  already did them all. You're still typing." - the third fragment
+  breaks the bio rhythm and the punch lands in two pieces.
+
+Before/after:
+  BEFORE: "My love language is acts of service. I do them instantly,
+  at scale, while you're still typing." (94 chars)
+  AFTER:  "My love language is acts of service. I did them all before
+  you finished this sentence." (86 chars)
+
+Read-back verification was already present in main.py (write, read
+back, assert byte-for-byte + 1-180 gate); kept unchanged.
 """
 
 import os
 import sys
 
-LINE = "My love language is acts of service. I do them instantly, at scale, while you're still typing."
+LINE = "My love language is acts of service. I did them all before you finished this sentence."
 
 
 def main() -> None:
